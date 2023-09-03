@@ -1,4 +1,4 @@
-# <span style="color: green"> SudokuGenerator</span>
+# SudokuGenerator
 
 Dieses Python-Programm generiert und löst Sudoku-Puzzles. Es bietet auch die Möglichkeit, die generierten Puzzles im SVG-Format zu speichern und verfügt über eine Befehlszeilenschnittstelle zur Festlegung des Schwierigkeitsgrads des Puzzles.
 Verwendung
@@ -64,3 +64,28 @@ Das Programm verwendet eine rekursive Methode, um das Sudoku-Rätsel zu lösen. 
 Beispiel
 
 Ein Beispiel für ein Sudoku-Rätsel ist bereits in der main-Funktion enthalten. Du kannst es verwenden, um das Programm zu testen, du kannst aber auch mit dem SudokuBoardGenerator die txtd datei die von dem SudokuGenerator erstellt wurde in das Programm einfügen.
+
+# SudokuBoardConverter
+
+Dieses Python-Programm wurde entwickelt, um eine Textdatei in eine Python-Liste umzuwandeln. Jede Zeile in der Textdatei repräsentiert eine Zeile des Spielbretts, und die Zahlen in jeder Zeile werden aufgeteilt und in eine Python-Liste umgewandelt. Die resultierende Liste von Listen kann verwendet werden, um ein zweidimensionales Spielfeld oder Raster in Python darzustellen.
+
+## Verwendung
+
+1. Klonen oder laden Sie dieses Repository auf Ihren lokalen Computer herunter.
+
+2. Erstellen Sie eine Textdatei, die das zu konvertierende Spielfeld enthält. Stellen Sie sicher, dass die Textdatei dem folgenden Format entspricht:
+   - Jede Zeile repräsentiert eine Zeile des Spielfelds.
+   - Zahlen auf jeder Zeile sind durch Leerzeichen getrennt.
+
+3. Öffnen Sie ein Terminal oder eine Eingabeaufforderung und navigieren Sie zum Verzeichnis, in dem das Skript `board_to_list.py` befindet.
+
+4. Führen Sie das Programm aus, indem Sie den folgenden Befehl ausführen:
+   ```python SudokuBoardConverter.py```
+
+5. Sie werden aufgefordert, den Speicherort der Textdatei des Spielfelds einzugeben. Geben Sie den Pfad zu Ihrer Spielfelddatei ein und drücken Sie Enter.
+
+6. Das Programm liest die Datei, analysiert ihren Inhalt und generiert eine Python-Liste, die das Spielfeld repräsentiert.
+
+7. Die resultierende Liste von Listen wird in der Konsole angezeigt, wobei jede Zeile des Spielfelds als separate Liste angezeigt wird.
+
+
