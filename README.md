@@ -88,4 +88,6 @@ Dieses Python-Programm wurde entwickelt, um eine Textdatei in eine Python-Liste 
 
 7. Die resultierende Liste von Listen wird in der Konsole angezeigt, wobei jede Zeile des Spielfelds als separate Liste angezeigt wird.
 
+# Sudoku-GUI
 
+Wenn du dein erstelltes Sudoku jetzt auch noch in einem Python Programm Spielen möchtest dann empfehle ich den [Sudoku-GUI by ProAnalyzer](https://github.com/ProAnalyzer/Sudoku-GUI-Solver-master).
