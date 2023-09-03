@@ -1,4 +1,4 @@
-# Sudoku-Generator
+# <span style="color: green"> SudokuGenerator</span>
 
 Dieses Python-Programm generiert und löst Sudoku-Puzzles. Es bietet auch die Möglichkeit, die generierten Puzzles im SVG-Format zu speichern und verfügt über eine Befehlszeilenschnittstelle zur Festlegung des Schwierigkeitsgrads des Puzzles.
 Verwendung
